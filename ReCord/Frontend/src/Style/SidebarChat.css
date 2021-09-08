@@ -1,0 +1,50 @@
+#sidebarChat-div{
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 2px solid #d0eb872c;
+}
+
+#sidebarChat-div:hover{
+    background-color: #a8ddeb;
+}
+
+#sidebarChat-user > h2{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+}
+
+#sidebarChat-user > p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0px;
+    overflow: scroll;
+    width: 7rem;
+    height: 1.5rem;
+}
+
+#sidebarChat-user > p::-webkit-scrollbar{
+    display: none;
+}
+
+#sidebarChat-user{
+    margin-left: 15px;
+}
+
+#sidebarChat-p{
+    color: #121213;
+}
+
+a {
+    color: #2f778c;
+    text-decoration: none;
+}
+
+a :link :visited :hover :active :focus {
+    text-decoration: none;
+}

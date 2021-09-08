@@ -1,0 +1,13 @@
+#chat-div{
+    display: grid;
+    place-items: center;    
+    height: 95vh;
+}
+
+#chat-inner-div{
+    display: flex;
+    background-color: #ededed;
+    height: 85vh;
+    width: 86vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 1);
+}

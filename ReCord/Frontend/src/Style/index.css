@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Coolvetica";
+    src: local("coolvetica rg it"),
+     url("../Fonts/coolvetica/coolvetica\ condensed\ rg.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto Light Italic"),
+     url("../Fonts/Roboto/Roboto-LightItalic.ttf") format("truetype");
+    font-weight: bold;
+}
