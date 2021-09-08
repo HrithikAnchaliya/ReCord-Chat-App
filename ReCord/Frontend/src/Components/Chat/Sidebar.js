@@ -50,7 +50,7 @@ function Sidebar() {
     
     async function getRooms(){
         try {
-            const response = await fetch('http://localhost:4000/getRooms');
+            const response = await fetch('https://re-cord.herokuapp.com/getRooms');
             const json = await response.json();
             setRooms(json)
         } catch (error) {

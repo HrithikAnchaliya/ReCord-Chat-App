@@ -50,7 +50,7 @@ function ChatBar() {
                 },
                 body : JSON.stringify(dataBody)
             }
-            const response = await fetch("http://localhost:4000/getMessages", values)
+            const response = await fetch("https://re-cord.herokuapp.com/getMessages", values)
             if(response.ok){
                 const data = await response.json();
                 setMsgData(data.messages);

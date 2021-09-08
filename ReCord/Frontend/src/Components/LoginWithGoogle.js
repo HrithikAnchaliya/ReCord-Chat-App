@@ -14,7 +14,7 @@ const dispatch = useDispatch()
 const handleLogin = async googleData => {
     try{
         let token = googleData.tokenId;
-        const {  data  } = await axios.post("http://localhost:4000/api/v1/auth/google", { token });
+        const {  data  } = await axios.post("https://re-cord.herokuapp.com/api/v1/auth/google", { token });
         Serialize(data);
         dispatch(Add_User());
     } catch(e) {

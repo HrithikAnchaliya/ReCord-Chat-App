@@ -68,7 +68,7 @@ function AddServer() {
         try {
             if(selectedSVG && selectedName) {
                 let server = { selectedSVG, selectedName };
-                await axios.post("http://localhost:4000/api/addserver", { server });
+                await axios.post("https://re-cord.herokuapp.com/api/addserver", { server });
                 socket.emit("serverAdded")
             }
         } catch(e) {
