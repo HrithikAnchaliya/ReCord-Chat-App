@@ -5,7 +5,7 @@
     flex : 0.77;
     border-left:1px solid rgb(189, 189, 196) ;
     background-image: url(../Stock\ Files/Live-Background.svg);
-    background-position: center bottom calc(7.375em + 0.1875rem) !important;
+    background-position: center bottom calc(7.375rem + 0.1875rem) !important;
     background-size:contain;
     background-repeat: no-repeat;
     margin: 0 0 0 -2px;
@@ -21,7 +21,7 @@
     flex : 1;
     background-color: white;
     background-image: url(../Stock\ Files/Live-Background.svg);
-    background-position: center bottom calc(7.375em + 0.1875rem);
+    background-position: center bottom calc(7.375rem + 0.1875rem);
     background-repeat: no-repeat;
 }
 
