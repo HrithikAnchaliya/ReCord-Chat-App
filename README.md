@@ -1,1 +1,3 @@
-# ReCord-Chat-App
+# ReCord Chat Application
+
+> README COMING SOON
