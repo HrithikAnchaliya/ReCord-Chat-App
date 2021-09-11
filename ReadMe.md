@@ -51,7 +51,7 @@ Any user can create their own **SERVER**, which will be available to every *user
 
 ![AddServer](https://user-images.githubusercontent.com/32984102/132946428-092048c7-9d35-4946-be8a-06c664004837.gif)
 
-## FOR FURTHER DEVELOPMNT AND QUERIES :wave:  
+## FOR FURTHER DEVELOPMENT AND QUERIES :wave:  
 
 If you have any *queries*, Please raise a **issue**. And *star* this Project if you use it and Yes, go-ahead and develop or change as you want by forking this project.
 
